@@ -12,7 +12,9 @@
 </head>
 
 <body>
-    <header>navbar...</header>
+    <header>
+        @include('partials._navbar')
+    </header>
     <main>@yield('main-content')</main>
     <footer>footer...</footer>
 </body>
