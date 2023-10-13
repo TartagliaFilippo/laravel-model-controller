@@ -1,1 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    main {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+}
